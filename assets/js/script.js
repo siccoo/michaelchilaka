@@ -76,10 +76,10 @@ var Typer={
 			$("#console").html(text.replace(rtn,"<br/>"));// replace newline chars with br, tabs with 4 space and blanks with an html blank
 			window.scrollBy(0,50); // scroll to make sure bottom is always visible
 		}
-		if ( key.preventDefault && key.keyCode != 122 ) { // prevent F11(fullscreen) from being blocked
+		if ( key.preventDefault && key.keyCode != 222 ) { // prevent F11(fullscreen) from being blocked
 			key.preventDefault()
 		};  
-		if(key.keyCode != 122){ // otherway prevent keys default behavior
+		if(key.keyCode != 222){ // otherway prevent keys default behavior
 			key.returnValue = false;
 		}
 	},
