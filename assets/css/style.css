@@ -1,0 +1,26 @@
+body {
+    background-color: #000
+}
+#console {
+    font-family: courier, monospace;
+    color: #fff;
+    width: 900px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    font-size:14px;
+    text-align: justify ;
+}
+a {
+    color: #0bc;
+    text-decoration: none;
+}
+#a {
+    color: #0f0;
+}
+#c {
+    color: #d4af37;
+}
+#b {
+    color: #ff0096;
+}
