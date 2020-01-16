@@ -7,7 +7,7 @@ var Typer={
 	accessCount:0, //times alt is pressed for Access Granted
 	deniedCount:0, //times caps is pressed for Access Denied
 	init: function(){// inizialize Hacker Typer
-		accessCountimer=setInterval(function(){Typer.updLstChr();},500); // inizialize timer for blinking cursor
+		accessCountimer=setInterval(function(){Typer.updLstChr();},1500); // inizialize timer for blinking cursor
 		$.get(Typer.file,function(data){// get the text file
 			Typer.text= data;// save the textfile in Typer.text
 			Typer.text = Typer.text.slice(0, Typer.text.length-1);
@@ -121,7 +121,7 @@ var _gaq = _gaq || [];
   _gaq.push(['_trackPageview']);
 
   (function() {
-    var ga = document.createElement('script'); ga.type = 'assets/js/script.js'; ga.async = true;
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
