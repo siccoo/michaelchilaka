@@ -24,3 +24,22 @@ a {
 #b {
     color: #ff0096;
 }
+
+.social-buttons {
+    margin-left: auto;
+    float: right;
+    font: 20px;
+    color: #fff
+}
+
+.social-buttons i {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    transform: scale(2);
+    transform-origin: top left;
+}
+
