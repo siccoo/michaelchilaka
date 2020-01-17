@@ -1,15 +1,30 @@
 body {
     background-color: #000
 }
+
+/* @media screen and (max-width: 768px) {
+    body {
+        margin: 2rem 2rem;
+        padding: 0;
+    }
+} */
+
 #console {
     font-family: courier, monospace;
     color: #fff;
-    width: 950px;
+    width: 768px;
     margin-left:auto;
     margin-right:auto;
     margin-top:50px;
     font-size:14px;
     text-align: justify ;
+}
+
+@media screen and (max-width: 768px) {
+    #console {
+        margin: 2rem 2rem;
+        padding: 0;
+    }
 }
 a {
     color: #0bc;
